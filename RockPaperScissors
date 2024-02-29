@@ -1,0 +1,21 @@
+//Riley McKenzie
+// 2/27/22
+
+import java.util.Random;
+public class game2 {
+
+	public static void main(String[] args) {
+		Random num = new Random();
+		int res = num.nextInt(3);
+		//System.out.println(res);
+		if(res == 0) {
+			System.out.print("Rock");
+		}
+		else if(res == 1) {
+			System.out.print("Paper");
+		}
+		else{
+			System.out.print("Scissors");
+		}
+	}//end of void main
+}//end of class
